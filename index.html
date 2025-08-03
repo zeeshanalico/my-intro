@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <title>Zeeshan Ali</title>
+  <style>
+    body {
+  font-family: "Nunito", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #111827;
+    }
+
+    .container {
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .inner-container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 640px) {
+      .grid {
+        grid-template-columns: 1fr 3fr;
+      }
+    }
+
+    .left h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .left a, .left p {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #4b5563;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .left a:hover, .left p:hover {
+      color: #773FF0;
+      cursor: pointer;
+    }
+
+    .right a {
+      text-decoration: underline;
+      color: #773FF0;
+    }
+
+    .right p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    #name-tag{
+        margin-top:0.8rem;
+        line-height: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="inner-container">
+      <div class="grid">
+
+        <div class="left">
+          <h1 id="name-tag"><span>Zeeshan </span><br/>Ali</h1>
+          <a href="https://linkedin.com/in/zeeshan-ali-gcul" target="_blank" rel="noreferrer">linkedin</a>
+          <a href="https://github.com/zeeshanalico" target="_blank" rel="noreferrer">github</a>
+          <a href="https://x.com/zeeshan_gc" target="_blank" rel="noreferrer">twitter</a>
+        </div>
+
+        <!-- Right section -->
+        <div class="right">
+          <p>
+            I develop software &amp; worked at
+            <a href="https://tagsolutionsltd.com/" target="_blank" rel="noreferrer">TAGS</a>.
+            My goal is to build softwares that feels good to use.
+          </p>
+          <p>
+            The majority of my waking hours go towards that, but the others are usually spent in exchanging ideas through meaningful conversation, music and occasionally reading.
+          </p>
+          <p>
+            Currently living in Lahore, Pakistan, always believing in people who build things.
+          </p>
+          <p>zeeshan at <a href="https://www.tagsolutionsltd.com">tags</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
